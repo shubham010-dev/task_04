@@ -34,10 +34,11 @@ The site adapts seamlessly to **desktop, tablet, and mobile devices** with an in
 ## 📂 Project Structure
 
 ```
+├──README.md         #Project Documentation
 ├── index.html       # Main HTML file
-├── style.css        # CSS styles (with media queries)
+├── screenshot.png   # Demo screenshot
 ├── script.js        # JavaScript for mobile menu
-└── screenshot.png   # Demo screenshot
+└── style.css        # CSS styles (with media queries)
 ```
 
 ---
