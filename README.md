@@ -60,7 +60,7 @@ The site adapts seamlessly to **desktop, tablet, and mobile devices** with an in
 
 2. **Navigate to the project folder**
    ```bash
-   cd your-repo-name
+   cd task_04
    ```
 
 3. **Open in browser**
