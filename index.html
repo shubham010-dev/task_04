@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">ResponsiveSite</div>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav id="navigation">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Our Responsive Site</h1>
+            <p>This website adapts beautifully to any screen size using CSS media queries. Experience seamless browsing on desktop, tablet, and mobile devices.</p>
+            <a href="#features" class="cta-button">Explore Features</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="main-content">
+            <article class="content-section">
+                <h2>Responsive Web Design</h2>
+                <p>Responsive web design is an approach to web development that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it.</p>
+                
+                <img src="#" alt="Responsive Design Concept" class="responsive-image">
+                
+                <p>The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries. As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities.</p>
+                
+                <p>Media queries are a key component of responsive design. They allow you to apply CSS styles based on device characteristics like screen width, height, orientation, and resolution.</p>
+            </article>
+
+            <aside class="sidebar">
+                <h3>Quick Navigation</h3>
+                <ul>
+                    <li><a href="#responsive">Responsive Design</a></li>
+                    <li><a href="#mobile">Mobile Optimization</a></li>
+                    <li><a href="#performance">Performance</a></li>
+                </ul>
+                <br>
+                <h3>Key Benefits</h3>
+                <ul>
+                    <li>Better User Experience</li>
+                    <li>Improved SEO Rankings</li>
+                    <li>Cost-Effective Solution</li>
+                    <li>Easier Maintenance</li>
+                    <li>Future-Proof Design</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: #2c3e50;">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="#" alt="Mobile First">
+                    <h3>Mobile First</h3>
+                    <p>Designed with mobile devices in mind, then enhanced for larger screens.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="#" alt="Fast Loading">
+                    <h3>Fast Loading</h3>
+                    <p>Optimized performance across all devices with efficient CSS and minimal JavaScript.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="#" alt="Beautiful Design">
+                    <h3>Beautiful Design</h3>
+                    <p>Modern, clean design that looks great on any screen size or device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Shubham Singh Bora 2025. Built with CSS Media Queries for optimal mobile experience.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
